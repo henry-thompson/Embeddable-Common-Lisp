@@ -113,10 +113,6 @@ SOURCE=..\..\blacklst.c
 # End Source File
 # Begin Source File
 
-SOURCE=..\..\checksums.c
-# End Source File
-# Begin Source File
-
 SOURCE=..\..\dbg_mlc.c
 # End Source File
 # Begin Source File
@@ -165,7 +161,7 @@ SOURCE=..\..\misc.c
 # End Source File
 # Begin Source File
 
-SOURCE=..\..\msvc_dbg.c
+SOURCE=..\..\extra\msvc_dbg.c
 # End Source File
 # Begin Source File
 
@@ -246,7 +242,7 @@ SOURCE=..\..\include\leak_detector.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\..\msvc_dbg.h
+SOURCE=..\..\include\private\msvc_dbg.h
 # End Source File
 # Begin Source File
 
@@ -258,7 +254,7 @@ SOURCE=..\stdafx.h
 # End Source File
 # Begin Source File
 
-SOURCE=..\..\version.h
+SOURCE=..\..\include\gc_version.h
 # End Source File
 # Begin Source File
 
